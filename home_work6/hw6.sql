@@ -1,6 +1,5 @@
 -- Задание 1.
 DROP TABLE IF EXISTS users_old;
--- копируем таблицу с атрибутами, но без данных.
 CREATE TABLE users_old LIKE users;
 
 DROP PROCEDURE IF EXISTS prc_moveing_user;
